@@ -20,7 +20,6 @@ public:
         is24Hour = true;
     }
 
-    //MAYBE WANT TO INCLUDE A WAY TO MAKE SURE USERS INPUT A CORRECT VALUE
     Clock(int h, int m, int s, bool i){
         hours = h;
         minutes = m;
