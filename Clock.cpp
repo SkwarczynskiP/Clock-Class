@@ -3,6 +3,7 @@
 #include "Clock.h"
 using namespace std;
 
+//Default Constructor
 Clock::Clock(){
     hours = 0;
     minutes = 0;
@@ -11,6 +12,7 @@ Clock::Clock(){
     isAM = true;
 }
 
+//Constructor that takes three integer arguments
 Clock::Clock(int h, int m, int s){
     is24Hour = true;
     isAM = true;
@@ -26,6 +28,7 @@ Clock::Clock(int h, int m, int s){
     }
 }
 
+//Constructor that takes five arguments
 Clock::Clock(int h, int m, int s, bool format, bool am){
     is24Hour = format;
     isAM = am;
@@ -54,6 +57,7 @@ Clock::Clock(int h, int m, int s, bool format, bool am){
     }
 }
 
+//Member function to switch the time format
 void Clock::toggleFormat() {
     if (is24Hour) {
         if (hours >= 0 && hours <= 11) {
@@ -81,6 +85,7 @@ void Clock::toggleFormat() {
     is24Hour = !is24Hour;
 }
 
+//Member function to display the time
 void Clock::show() {
     cout << "The Current Time is: ";
     if (is24Hour) {
@@ -94,6 +99,7 @@ void Clock::show() {
     }
 }
 
+//Member function to advance the time by one second
 void Clock::tick() {
     seconds++;
 
