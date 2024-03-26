@@ -55,8 +55,8 @@ build CMakeFiles/Clock_Class.dir/Clock.cpp.obj: CXX_COMPILER__Clock_Class_unscan
   OBJECT_DIR = CMakeFiles\Clock_Class.dir
   OBJECT_FILE_DIR = CMakeFiles\Clock_Class.dir
 
-build CMakeFiles/Clock_Class.dir/Main.cpp.obj: CXX_COMPILER__Clock_Class_unscanned_Debug C$:/MY$ STUFF/OU$ Winter$ 2024/CSI$ 2320/Project4/Clock-Class/Main.cpp || cmake_object_order_depends_target_Clock_Class
-  DEP_FILE = CMakeFiles\Clock_Class.dir\Main.cpp.obj.d
+build CMakeFiles/Clock_Class.dir/main.cpp.obj: CXX_COMPILER__Clock_Class_unscanned_Debug C$:/MY$ STUFF/OU$ Winter$ 2024/CSI$ 2320/Project4/Clock-Class/main.cpp || cmake_object_order_depends_target_Clock_Class
+  DEP_FILE = CMakeFiles\Clock_Class.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Clock_Class.dir
   OBJECT_FILE_DIR = CMakeFiles\Clock_Class.dir
@@ -69,7 +69,7 @@ build CMakeFiles/Clock_Class.dir/Main.cpp.obj: CXX_COMPILER__Clock_Class_unscann
 #############################################
 # Link the executable Clock_Class.exe
 
-build Clock_Class.exe: CXX_EXECUTABLE_LINKER__Clock_Class_Debug CMakeFiles/Clock_Class.dir/Clock.cpp.obj CMakeFiles/Clock_Class.dir/Main.cpp.obj
+build Clock_Class.exe: CXX_EXECUTABLE_LINKER__Clock_Class_Debug CMakeFiles/Clock_Class.dir/Clock.cpp.obj CMakeFiles/Clock_Class.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Clock_Class.dir
